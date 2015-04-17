@@ -46,7 +46,7 @@ function draw() {
 	for (i = 0; i<spectrum.length; i++){
 	  vertex(i, map(spectrum[i], 0, 600, height, 0) );
 	}
-	endShape();
+	endShape(CLOSE);
 
 /*	var kickV = vol1.getLevel();
 		fill(255);
